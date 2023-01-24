@@ -1,0 +1,3 @@
+mutation resetLearning($setId: ID!) {
+    resetLearning(setId: $setId)
+}

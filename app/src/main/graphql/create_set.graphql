@@ -1,0 +1,5 @@
+mutation createSet($createSetInput: CreateSetInput!) {
+    createSet(createSetInput: $createSetInput) {
+        id
+    }
+}

@@ -1,0 +1,14 @@
+mutation reportUserLearningTerms($terms: [TermReport]!) {
+    setUserLearningTerms(terms: $terms) {
+        id
+        question
+        answer
+        explanation
+        options {
+            id
+            option
+        }
+        remained
+        learned
+    }
+}

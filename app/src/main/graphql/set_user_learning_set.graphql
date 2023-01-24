@@ -1,0 +1,3 @@
+mutation setUserLearningSet($setId: ID!) {
+    setUserLearningSet(setId: $setId)
+}

@@ -1,0 +1,17 @@
+query me {
+    me {
+        id
+        username
+        sets {
+            id
+            name
+            _count {
+                terms
+            }
+            author {
+                id
+                username
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+query set($id: ID!) {
+    set (id: $id) {
+        id
+        name
+        author {
+            id
+            username
+        }
+        terms {
+            id
+            question
+            answer
+            explanation
+            options {
+                id
+                option
+            }
+            remained
+            learned
+        }
+    }
+}

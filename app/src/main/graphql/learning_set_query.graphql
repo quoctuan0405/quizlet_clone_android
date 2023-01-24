@@ -1,0 +1,13 @@
+query learningSets {
+    learningSets {
+        id
+        name
+        _count {
+            terms
+        }
+        author {
+            id
+            username
+        }
+    }
+}

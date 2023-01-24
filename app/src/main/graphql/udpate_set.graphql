@@ -1,0 +1,5 @@
+mutation updateSet($updateSetInput: UpdateSetInput!) {
+    updateSet(updateSetInput: $updateSetInput) {
+        id
+    }
+}

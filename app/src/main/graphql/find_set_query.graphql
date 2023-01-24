@@ -1,0 +1,13 @@
+query findSet($query: String) {
+    findSet(query: $query) {
+        id
+        name
+        _count {
+            terms
+        }
+        author {
+            id
+            username
+        }
+    }
+}
